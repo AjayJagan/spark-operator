@@ -1,0 +1,13 @@
+name: Disconnected Readiness
+
+on:
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  check:
+    uses: opendatahub-io/disconnected-readiness-scorer/.github/workflows/reusable-check.yml@main
+    with:
+      rules: "csv,tags,egress,manifest"
+      exceptions_config_path: ""
+      timeout_minutes: "30"
