@@ -1,6 +1,6 @@
 module github.com/kubeflow/spark-operator/v2
 
-go 1.24.10
+go 1.25.0
 
 tool k8s.io/code-generator
 
@@ -63,8 +63,8 @@ require (
 	github.com/go-errors/errors v1.5.1 // indirect
 	github.com/go-gorp/gorp/v3 v3.1.0 // indirect
 	github.com/go-logr/zapr v1.3.0 // indirect
-	github.com/go-openapi/jsonpointer v0.21.0 // indirect
-	github.com/go-openapi/jsonreference v0.21.0 // indirect
+	github.com/go-openapi/jsonpointer v1.0.0 // indirect
+	github.com/go-openapi/jsonreference v1.0.1 // indirect
 	github.com/go-openapi/swag v0.23.0 // indirect
 	github.com/go-task/slim-sprig/v3 v3.0.0 // indirect
 	github.com/go-viper/mapstructure/v2 v2.4.0 // indirect
