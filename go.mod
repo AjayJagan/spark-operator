@@ -1,6 +1,6 @@
 module github.com/kubeflow/spark-operator/v2
 
-go 1.24.10
+go 1.25
 
 tool k8s.io/code-generator
 
@@ -26,7 +26,7 @@ require (
 	k8s.io/client-go v0.33.3
 	k8s.io/component-base v0.33.3
 	k8s.io/klog/v2 v2.130.1
-	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738
+	k8s.io/utils v0.0.0-20260707023825-cf1189d6abe3
 	sigs.k8s.io/controller-runtime v0.20.4
 	sigs.k8s.io/scheduler-plugins v0.32.7
 	sigs.k8s.io/yaml v1.6.0
